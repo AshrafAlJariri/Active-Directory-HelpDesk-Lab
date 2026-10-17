@@ -31,7 +31,7 @@ The purpose of this project is to develop hands-on experience with common Tier 1
 <p align="center">
 Verify Windows 11 system information using systeminfo:: <br/>
 <!-- Screenshot: Windows Server and Windows 11 lab environment -->
-<img src="blob:https://imgur.com/7721d6de-6aa6-46dc-992e-5a6ed527bb38" height="80%" width="80%" alt="Lab Environment"/>
+<img src="https://i.imgur.com/ppty0kQ.png" height="80%" width="80%" alt="Lab Environment"/>
 <br />
 <br />
 Verify Windows 11 domain connection: <br/>
