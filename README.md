@@ -37,7 +37,7 @@ Verify Windows 11 domain connection: <br/>
 I verified that the Windows 11 computer was initially part of a workgroup rather than an Active Directory domain. This established its starting configuration before the domain join.
 <br/><br/>
 Configure Windows Server 2025 using UTM: <br/>
-<img src="https://i.imgur.com/OyQObZs.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/xT1thkY.png" height="80%" width="80%"/>
 <br />
 <br />
 Select Windows Server 2025 Standard Evaluation
