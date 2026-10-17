@@ -39,6 +39,16 @@ Verify Windows 11 domain connection: <br/>
 <img src="https://imgur.com/ZopUocF.png" height="80%" width="80%" alt="Domain Connection"/>
 <br />
 <br />
+Configure Windows Server 2025 using UTM: <br/>
+<img src="YOUR-IMAGE-LINK" height="80%" width="80%"/>
+<br />
+<br />
+Select Windows Server 2025 Standard Evaluation
+(Desktop Experience): <br/>
+<img src="YOUR-IMAGE-LINK" height="80%" width="80%"/>
+<br />
+<br />
+</p>
 </p>
 
 <h3>Objective 2: User Account Creation</h3>
