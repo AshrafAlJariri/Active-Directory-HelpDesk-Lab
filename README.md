@@ -14,13 +14,14 @@ The purpose of this project is to develop hands-on experience with common Tier 1
 - <b>Windows PowerShell</b>
 - <b>Command Prompt</b>
 - <b>VMware Fusion</b>
+- <b>UTM</b>
 - <b>Windows Administrative Tools</b>
 
 <h2>Environments Used</h2>
 
 - <b>macOS</b> (Host Operating System)
-- <b>Windows 11 Pro</b> (Client Virtual Machine)
-- <b>Windows Server</b> (Planned Domain Controller)
+- <b>VMware Fusion - Windows 11 Pro</b> (Client Virtual Machine)
+- <b>UTM - Windows Server 2025 Evaluation</b> (Domain Controller - Setup in Progress)
 
 <h2>Project Walk-through:</h2>
 
