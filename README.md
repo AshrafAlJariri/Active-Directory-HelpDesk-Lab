@@ -39,7 +39,9 @@ I verified that the Windows 11 computer was initially part of a workgroup rather
 Configure Windows Server 2025 using UTM: <br/>
 <img src="https://i.imgur.com/xT1thkY.png" height="80%" width="80%"/>
 <br />
-<br />
+I configured a <b>Windows Server 2025</b> virtual machine using <b>UTM</b> with <b>4 GB RAM</b>, <b>4 CPU cores</b>, and <b>64 GB storage</b> to establish the server environment for my Active Directory lab.
+<br/>
+<br/>
 Select Windows Server 2025 Standard Evaluation
 (Desktop Experience): <br/>
 <img src="YOUR-IMAGE-LINK" height="80%" width="80%"/>
