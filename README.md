@@ -34,11 +34,6 @@ Verify Windows 11 system information using systeminfo:: <br/>
 <img src="images/01-lab-environment.png" height="80%" width="80%" alt="Lab Environment"/>
 <br />
 <br />
-Configure Active Directory Domain Services: <br/>
-<!-- Screenshot: AD DS configuration -->
-<img src="images/02-active-directory-setup.png" height="80%" width="80%" alt="Active Directory Setup"/>
-<br />
-<br />
 Verify Windows 11 domain connection: <br/>
 <!-- Screenshot: Successful domain join -->
 <img src="images/03-domain-connection.png" height="80%" width="80%" alt="Domain Connection"/>
