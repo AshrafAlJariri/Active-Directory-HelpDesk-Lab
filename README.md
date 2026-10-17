@@ -38,17 +38,22 @@ I verified that the Windows 11 computer was initially part of a workgroup rather
 <br/><br/>
 Configure Windows Server 2025 using UTM: <br/>
 <img src="https://i.imgur.com/xT1thkY.png" height="80%" width="80%"/>
-<br />
+<br/>
 I configured a <b>Windows Server 2025</b> virtual machine using <b>UTM</b> with <b>4 GB RAM</b>, <b>4 CPU cores</b>, and <b>64 GB storage</b> to establish the server environment for my Active Directory lab.
+<br/><br/>
+<b>3. Active Directory Domain Configuration:</b>
+<br/>
+<img src="images/03-active-directory-domain.png" height="80%" width="80%" alt="Active Directory Domain Configuration"/>
+<br/>
+I installed <b>Active Directory Domain Services (AD DS)</b> and promoted Windows Server to a <b>Domain Controller</b>, creating a centralized environment for managing domain users and computers.
+<br/><br/>
+<b> 4. Windows 11 Domain Join Verification:</b>
+<br/>
+<img src="images/04-domain-join.png" height="80%" width="80%" alt="Windows 11 Domain Join"/>
+<br/>
+I joined the <b>Windows 11 Pro</b> client running in <b>VMware Fusion</b> to the <b>Active Directory domain</b>, simulating the process of connecting an employee workstation to a corporate network.
 <br/>
 <br/>
-Select Windows Server 2025 Standard Evaluation
-(Desktop Experience): <br/>
-<img src="YOUR-IMAGE-LINK" height="80%" width="80%"/>
-<br />
-<br />
-</p>
-</p>
 
 <h3>Objective 2: User Account Creation</h3>
 
