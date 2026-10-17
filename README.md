@@ -54,6 +54,8 @@ I installed <b>Active Directory Domain Services (AD DS)</b> and promoted Windows
 I joined the <b>Windows 11 Pro</b> client running in <b>VMware Fusion</b> to the <b>Active Directory domain</b>, simulating the process of connecting an employee workstation to a corporate network.
 <br/>
 <br/>
+  
+</p>
 
 <h3>Objective 2: User Account Creation</h3>
 
