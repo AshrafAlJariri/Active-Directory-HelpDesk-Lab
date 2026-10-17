@@ -1,3 +1,4 @@
+
 <h1>Active Directory Help Desk Lab</h1>
 
 <h2>Description</h2>
@@ -28,19 +29,23 @@ The purpose of this project is to develop hands-on experience with common Tier 1
 <b>Goal:</b> Configure an Active Directory environment and connect a Windows 11 client to the domain.
 
 <p align="center">
-Active Directory lab environment setup: <br/>
-<!-- Screenshot: Windows Server and Windows 11 lab environment -->
-<img src="images/01-lab-environment.png" height="80%" width="80%" alt="Lab Environment"/>
+Verify Windows 11 system information using systeminfo: <br/>
+<img src="images/01-system-information.png" height="80%" width="80%" alt="Windows 11 System Information"/>
 <br />
 <br />
-Configure Active Directory Domain Services: <br/>
-<!-- Screenshot: AD DS configuration -->
-<img src="images/02-active-directory-setup.png" height="80%" width="80%" alt="Active Directory Setup"/>
+
+Confirm Windows 11 is currently in a workgroup: <br/>
+<img src="images/02-workgroup-verification.png" height="80%" width="80%" alt="Windows 11 Workgroup Verification"/>
 <br />
 <br />
-Verify Windows 11 domain connection: <br/>
-<!-- Screenshot: Successful domain join -->
-<img src="images/03-domain-connection.png" height="80%" width="80%" alt="Domain Connection"/>
+
+Configure Active Directory Domain Services (Planned): <br/>
+<img src="images/03-active-directory-setup.png" height="80%" width="80%" alt="Active Directory Setup"/>
+<br />
+<br />
+
+Verify Windows 11 domain connection (Planned): <br/>
+<img src="images/04-domain-connection.png" height="80%" width="80%" alt="Domain Connection"/>
 <br />
 <br />
 </p>
@@ -51,15 +56,17 @@ Verify Windows 11 domain connection: <br/>
 
 <p align="center">
 Open Active Directory Users and Computers: <br/>
-<img src="images/04-aduc-console.png" height="80%" width="80%" alt="ADUC Console"/>
+<img src="images/05-aduc-console.png" height="80%" width="80%" alt="ADUC Console"/>
 <br />
 <br />
+
 Create a new employee account: <br/>
-<img src="images/05-create-user.png" height="80%" width="80%" alt="Create User"/>
+<img src="images/06-create-user.png" height="80%" width="80%" alt="Create User"/>
 <br />
 <br />
+
 Verify the employee account was created: <br/>
-<img src="images/06-user-created.png" height="80%" width="80%" alt="User Created"/>
+<img src="images/07-user-created.png" height="80%" width="80%" alt="User Created"/>
 <br />
 <br />
 </p>
@@ -70,15 +77,17 @@ Verify the employee account was created: <br/>
 
 <p align="center">
 Locate the employee account in Active Directory: <br/>
-<img src="images/07-locate-user.png" height="80%" width="80%" alt="Locate User"/>
+<img src="images/08-locate-user.png" height="80%" width="80%" alt="Locate User"/>
 <br />
 <br />
+
 Reset the employee password: <br/>
-<img src="images/08-reset-password.png" height="80%" width="80%" alt="Password Reset"/>
+<img src="images/09-reset-password.png" height="80%" width="80%" alt="Password Reset"/>
 <br />
 <br />
+
 Verify successful login using the new password: <br/>
-<img src="images/09-password-login.png" height="80%" width="80%" alt="Password Login"/>
+<img src="images/10-password-login.png" height="80%" width="80%" alt="Password Login"/>
 <br />
 <br />
 </p>
@@ -89,15 +98,17 @@ Verify successful login using the new password: <br/>
 
 <p align="center">
 Identify the locked employee account: <br/>
-<img src="images/10-account-locked.png" height="80%" width="80%" alt="Account Locked"/>
+<img src="images/11-account-locked.png" height="80%" width="80%" alt="Account Locked"/>
 <br />
 <br />
+
 Unlock the account using Active Directory: <br/>
-<img src="images/11-unlock-account.png" height="80%" width="80%" alt="Unlock Account"/>
+<img src="images/12-unlock-account.png" height="80%" width="80%" alt="Unlock Account"/>
 <br />
 <br />
+
 Verify the employee can log in successfully: <br/>
-<img src="images/12-account-unlocked.png" height="80%" width="80%" alt="Account Unlocked"/>
+<img src="images/13-account-unlocked.png" height="80%" width="80%" alt="Account Unlocked"/>
 <br />
 <br />
 </p>
@@ -108,15 +119,17 @@ Verify the employee can log in successfully: <br/>
 
 <p align="center">
 Create a new security group: <br/>
-<img src="images/13-create-group.png" height="80%" width="80%" alt="Create Group"/>
+<img src="images/14-create-group.png" height="80%" width="80%" alt="Create Group"/>
 <br />
 <br />
+
 Add an employee to the security group: <br/>
-<img src="images/14-add-user-group.png" height="80%" width="80%" alt="Add User to Group"/>
+<img src="images/15-add-user-group.png" height="80%" width="80%" alt="Add User to Group"/>
 <br />
 <br />
+
 Verify the employee's group membership: <br/>
-<img src="images/15-group-membership.png" height="80%" width="80%" alt="Group Membership"/>
+<img src="images/16-group-membership.png" height="80%" width="80%" alt="Group Membership"/>
 <br />
 <br />
 </p>
@@ -127,15 +140,17 @@ Verify the employee's group membership: <br/>
 
 <p align="center">
 Identify the Windows login issue: <br/>
-<img src="images/16-login-error.png" height="80%" width="80%" alt="Login Error"/>
+<img src="images/17-login-error.png" height="80%" width="80%" alt="Login Error"/>
 <br />
 <br />
+
 Troubleshoot the issue using Windows tools: <br/>
-<img src="images/17-login-troubleshooting.png" height="80%" width="80%" alt="Login Troubleshooting"/>
+<img src="images/18-login-troubleshooting.png" height="80%" width="80%" alt="Login Troubleshooting"/>
 <br />
 <br />
+
 Verify successful login after troubleshooting: <br/>
-<img src="images/18-login-resolved.png" height="80%" width="80%" alt="Login Resolved"/>
+<img src="images/19-login-resolved.png" height="80%" width="80%" alt="Login Resolved"/>
 <br />
 <br />
 </p>
@@ -146,15 +161,17 @@ Verify successful login after troubleshooting: <br/>
 
 <p align="center">
 Open Group Policy Management: <br/>
-<img src="images/19-group-policy-console.png" height="80%" width="80%" alt="Group Policy Console"/>
+<img src="images/20-group-policy-console.png" height="80%" width="80%" alt="Group Policy Console"/>
 <br />
 <br />
+
 Configure a Group Policy Object: <br/>
-<img src="images/20-configure-gpo.png" height="80%" width="80%" alt="Configure GPO"/>
+<img src="images/21-configure-gpo.png" height="80%" width="80%" alt="Configure GPO"/>
 <br />
 <br />
+
 Verify Group Policy application: <br/>
-<img src="images/21-verify-gpo.png" height="80%" width="80%" alt="Verify GPO"/>
+<img src="images/22-verify-gpo.png" height="80%" width="80%" alt="Verify GPO"/>
 <br />
 <br />
 </p>
@@ -165,15 +182,17 @@ Verify Group Policy application: <br/>
 
 <p align="center">
 Check network configuration using ipconfig: <br/>
-<img src="images/22-ipconfig.png" height="80%" width="80%" alt="IP Configuration"/>
+<img src="images/23-ipconfig.png" height="80%" width="80%" alt="IP Configuration"/>
 <br />
 <br />
+
 Troubleshoot DNS using nslookup and ping: <br/>
-<img src="images/23-dns-troubleshooting.png" height="80%" width="80%" alt="DNS Troubleshooting"/>
+<img src="images/24-dns-troubleshooting.png" height="80%" width="80%" alt="DNS Troubleshooting"/>
 <br />
 <br />
+
 Verify network connectivity after troubleshooting: <br/>
-<img src="images/24-network-resolved.png" height="80%" width="80%" alt="Network Resolved"/>
+<img src="images/25-network-resolved.png" height="80%" width="80%" alt="Network Resolved"/>
 <br />
 <br />
 </p>
@@ -184,18 +203,21 @@ Verify network connectivity after troubleshooting: <br/>
 
 <p align="center">
 Locate the employee account in Active Directory: <br/>
-<img src="images/25-offboarding-user.png" height="80%" width="80%" alt="Offboarding User"/>
+<img src="images/26-offboarding-user.png" height="80%" width="80%" alt="Offboarding User"/>
 <br />
 <br />
+
 Disable the employee account: <br/>
-<img src="images/26-disable-account.png" height="80%" width="80%" alt="Disable Account"/>
+<img src="images/27-disable-account.png" height="80%" width="80%" alt="Disable Account"/>
 <br />
 <br />
+
 Verify the disabled account cannot authenticate: <br/>
-<img src="images/27-account-disabled.png" height="80%" width="80%" alt="Account Disabled"/>
+<img src="images/28-account-disabled.png" height="80%" width="80%" alt="Account Disabled"/>
 <br />
 <br />
 </p>
+
 
 <h2>Conclusion</h2>
 
