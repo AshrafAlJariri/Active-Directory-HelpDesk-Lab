@@ -33,7 +33,8 @@ Verify Windows 11 system information using systeminfo:: <br/>
 <!-- Screenshot: Windows Server and Windows 11 lab environment -->
 <img src="https://i.imgur.com/ppty0kQ.png" height="80%" width="80%" alt="Lab Environment"/>
 <br />
-<br />
+I used the <b>systeminfo</b> command to verify the Windows 11 operating system, hardware configuration, and system specifications before beginning the lab.
+<br/><br/>
 Verify Windows 11 domain connection: <br/>
 <!-- Screenshot: Successful domain join -->
 <img src="https://imgur.com/ZopUocF.png" height="80%" width="80%" alt="Domain Connection"/>
