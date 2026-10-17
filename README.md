@@ -47,7 +47,7 @@ Verify Windows 11 domain connection: <br/>
 
 <p align="center">
 Open Active Directory Users and Computers: <br/>
-<img src="images/04-aduc-console.png" height="80%" width="80%" alt="ADUC Console"/>
+<img src="https://images/04-aduc-console.png" height="80%" width="80%" alt="ADUC Console"/>
 <br />
 <br />
 Create a new employee account: <br/>
