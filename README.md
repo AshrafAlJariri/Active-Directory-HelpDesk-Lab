@@ -40,7 +40,7 @@ Verify Windows 11 domain connection: <br/>
 <br />
 <br />
 Configure Windows Server 2025 using UTM: <br/>
-<img src="YOUR-IMAGE-LINK" height="80%" width="80%"/>
+<img src="https://i.imgur.com/OyQObZs.png" height="80%" width="80%"/>
 <br />
 <br />
 Select Windows Server 2025 Standard Evaluation
