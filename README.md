@@ -36,7 +36,7 @@ Verify Windows 11 system information using systeminfo:: <br/>
 <br />
 Verify Windows 11 domain connection: <br/>
 <!-- Screenshot: Successful domain join -->
-<img src="images/03-domain-connection.png" height="80%" width="80%" alt="Domain Connection"/>
+<img src="https://imgur.com/a/BHGXnp6" height="80%" width="80%" alt="Domain Connection"/>
 <br />
 <br />
 </p>
