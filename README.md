@@ -29,7 +29,7 @@ The purpose of this project is to develop hands-on experience with common Tier 1
 <b>Goal:</b> Configure an Active Directory environment and connect a Windows 11 client to the domain.
 
 <p align="center">
-Active Directory lab environment setup: <br/>
+Verify Windows 11 system information using systeminfo:: <br/>
 <!-- Screenshot: Windows Server and Windows 11 lab environment -->
 <img src="images/01-lab-environment.png" height="80%" width="80%" alt="Lab Environment"/>
 <br />
