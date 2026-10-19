@@ -46,10 +46,6 @@ I configured a <b>Windows Server 2025</b> virtual machine using <b>UTM</b> with 
 <img src="https://i.imgur.com/4eY5e9f.png" height="80%" width="80%" alt="Active Directory Domain Configuration"/>
 <br/>
 
-### Windows Server 2025 Setup
-
-![Windows Server 2025 Server Manager](YOUR-IMAGE-URL)
-
 I installed **Windows Server 2025 Standard Evaluation (Desktop Experience)** using **UTM** and verified that **Server Manager** launched successfully. This server will be configured as a **Domain Controller** for my **Active Directory Help Desk Lab**.
 
 <br/><br/>
