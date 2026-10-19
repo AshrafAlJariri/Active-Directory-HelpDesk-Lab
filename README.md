@@ -43,7 +43,7 @@ I configured a <b>Windows Server 2025</b> virtual machine using <b>UTM</b> with 
 <br/><br/>
 <b>3. Active Directory Domain Configuration:</b>
 <br/>
-<img src="images/03-active-directory-domain.png" height="80%" width="80%" alt="Active Directory Domain Configuration"/>
+<img src="https://i.imgur.com/4eY5e9f.png" height="80%" width="80%" alt="Active Directory Domain Configuration"/>
 <br/>
 I installed <b>Active Directory Domain Services (AD DS)</b> and promoted Windows Server to a <b>Domain Controller</b>, creating a centralized environment for managing domain users and computers.
 <br/><br/>
