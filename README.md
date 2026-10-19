@@ -45,7 +45,7 @@ I configured a <b>Windows Server 2025</b> virtual machine using <b>UTM</b> with 
 <br/>
 <img src="https://i.imgur.com/4eY5e9f.png" height="80%" width="80%" alt="Active Directory Domain Configuration"/>
 <br/>
-I installed <b>Windows Server 2025 Standard Evaluation (Desktop Experience)</b>b> using <b>UTM</b>b> and verified that <b>Server Manager</b>launched successfully. This server will be configured as a <b>Domain Controller</b>b> for my <b>Active Directory Help Desk Lab</b>.
+I installed <b>Windows Server 2025 Standard Evaluation (Desktop Experience)</b>b> using <b>UTM</b>b> and verified that <b>Server Manager</b>launched successfully. This server will be configured as a <b>Domain Controller</b> for my <b>Active Directory Help Desk Lab</b>.
 <br/><br/>
 <b> 4. Windows 11 Domain Join Verification:</b>
 <br/>
