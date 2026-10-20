@@ -47,7 +47,14 @@ I configured a <b>Windows Server 2025</b> virtual machine using <b>UTM</b> with 
 <br/>
 I installed <b>Windows Server 2025 Standard Evaluation (Desktop Experience)</b>b> using <b>UTM</b>b> and verified that <b>Server Manager</b>launched successfully. This server will be configured as a <b>Domain Controller</b> for my <b>Active Directory Help Desk Lab</b>.
 <br/><br/>
-<b> 4. Windows 11 Domain Join Verification:</b>
+<b> 4. Active Directory Domain Services Installation </b>
+<br/>
+<img src="images/04-domain-join.png" height="80%" width="80%" alt="Windows 11 Domain Join"/>
+<br/>
+I successfully installed <b>Active Directory Domain Services (AD DS)</b> and its required management tools on <b>Windows Server 2025</b> using <b>UTM</b>. The installation completed successfully, and the server is ready to be promoted to a <b>Domain Controller</b>.
+<br/>
+<br/>
+<b> 5. Windows 11 Domain Join Verification:</b>
 <br/>
 <img src="images/04-domain-join.png" height="80%" width="80%" alt="Windows 11 Domain Join"/>
 <br/>
