@@ -49,7 +49,7 @@ I installed <b>Windows Server 2025 Standard Evaluation (Desktop Experience)</b>b
 <br/><br/>
 <b> 4. Active Directory Domain Services Installation </b>
 <br/>
-<img src="images/04-domain-join.png" height="80%" width="80%" alt="Windows 11 Domain Join"/>
+<img src="https://imgur.com/a/tcS9t0X" height="80%" width="80%" alt="Windows 11 Domain Join"/>
 <br/>
 I successfully installed <b>Active Directory Domain Services (AD DS)</b> and its required management tools on <b>Windows Server 2025</b> using <b>UTM</b>. The installation completed successfully, and the server is ready to be promoted to a <b>Domain Controller</b>.
 <br/>
