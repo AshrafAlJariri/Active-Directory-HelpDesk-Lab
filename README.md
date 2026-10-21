@@ -112,6 +112,7 @@ TcpTestSucceeded : True
 
 <h3>5. Active Directory Domain Services — In Progress</h3>
  <img src="https://i.imgur.com/3f0pNpV.png" height="80%" width="80%" /><br/>
+ <img src="https://i.imgur.com/AFKSAFN.png" height="80%" width="80%" /><br/>
 Next steps:
 1. In Server Manager, open <b>Manage > Add Roles and Features</b>.
 2. Install <b>Active Directory Domain Services (AD DS)</b>.
