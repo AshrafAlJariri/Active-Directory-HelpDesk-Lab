@@ -102,7 +102,7 @@ TcpTestSucceeded : True
 <!-- Caption: Verified that the Windows 11 client could reach Windows Server over the Azure VPN on TCP port 3389. -->
 
 <h3>4. Remote Desktop to Windows Server — Completed</h3>
- <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
+ <img src="https://i.imgur.com/6b72vQz.png" height="80%" width="80%" /><br/>
 - Opened Remote Desktop Connection (<code>mstsc</code>) on Windows 11.
 - Connected to the server's private IP address, <b>10.50.1.4</b>.
 - Signed in using the server administrator account.
