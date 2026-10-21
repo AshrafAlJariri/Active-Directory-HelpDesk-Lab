@@ -61,28 +61,32 @@ Active Directory Domain Services (installation pending)
 <h2>Walkthrough</h2>
 
 <h3>1. Azure Virtual Network and Windows Server Deployment — Completed</h3>
+ <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
 
 - Created an Azure virtual network named <b>vnet-eastus-1</b>.
 - Configured the server subnet <b>10.50.1.0/24</b> and a dedicated GatewaySubnet.
 - Deployed a Windows Server 2025 Datacenter virtual machine named <b>Ashraf-DC-01</b> in East US.
 - Configured the server with the private IP address <b>10.50.1.4</b>.
 - Kept the server without a directly assigned public IP address.
+
 <!-- Add a screenshot from Azure showing the VM overview, after hiding any account-specific identifiers. -->
 <!-- ![Azure Windows Server VM](screenshots/01-azure-windows-server.png) -->
 <!-- Caption: Deployed Windows Server 2025 in an Azure virtual network for the Active Directory Help Desk lab. -->
 
 <h3>2. Point-to-Site VPN Setup — Completed</h3>
 
+ <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
 - Deployed the Azure VPN Gateway.
 - Configured Point-to-Site VPN access using OpenVPN and Microsoft Entra ID authentication.
 - Downloaded the Azure VPN client configuration profile.
 - Installed Azure VPN Client on Windows 11 Pro in Parallels Desktop.
 - Imported the profile and successfully connected to <b>vnet-eastus-1</b>.
+
 <!-- ![VPN connected](screenshots/02-azure-vpn-connected.png) -->
 <!-- Caption: Connected the Windows 11 client to the Azure virtual network using Azure VPN Client. -->
 
 <h3>3. VPN Connectivity Troubleshooting — Completed</h3>
-
+ <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
 Initial ICMP ping attempts to the Azure server timed out. To verify whether the server was reachable over the VPN, I inspected the IPv4 route table and tested TCP connectivity to Remote Desktop port 3389.
 route print -4
 Test-NetConnection 10.50.1.4 -Port 3389
@@ -97,7 +101,7 @@ TcpTestSucceeded : True
 <!-- Caption: Verified that the Windows 11 client could reach Windows Server over the Azure VPN on TCP port 3389. -->
 
 <h3>4. Remote Desktop to Windows Server — Completed</h3>
-
+ <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
 - Opened Remote Desktop Connection (<code>mstsc</code>) on Windows 11.
 - Connected to the server's private IP address, <b>10.50.1.4</b>.
 - Signed in using the server administrator account.
@@ -106,7 +110,7 @@ TcpTestSucceeded : True
 <!-- Caption: Accessed the Azure-hosted Windows Server 2025 desktop remotely from the Windows 11 client. -->
 
 <h3>5. Active Directory Domain Services — In Progress</h3>
-
+ <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
 Next steps:
 1. In Server Manager, open <b>Manage > Add Roles and Features</b>.
 2. Install <b>Active Directory Domain Services (AD DS)</b>.
@@ -115,23 +119,25 @@ Next steps:
 <!-- Add a screenshot only after AD DS installation is actually complete. -->
 
 <h3>6. Employee Accounts and Organizational Units — Planned</h3>
-
+ <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
 - Create OUs for departments and employees.
 - Add test employee accounts and security groups.
 - Configure group membership and employee account settings.
 - Practice account onboarding and offboarding.
 <h3>7. Windows 11 Domain Join — Planned</h3>
-
+ <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
 - Configure Windows 11 to use the domain controller for DNS over the VPN.
 - Join the Windows 11 Pro workstation to the Active Directory domain.
 - Verify domain sign-in and the computer object in Active Directory.
-<h3>8. Help Desk Troubleshooting Scenarios — Planned</h3>
 
+<h3>8. Help Desk Troubleshooting Scenarios — Planned</h3>
+ <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
 - <b>Forgotten Password:</b> Reset a test employee's password and verify successful sign-in.
 - <b>Locked Account:</b> Investigate and unlock a test employee account.
 - <b>Shared Folder Access:</b> Configure and test share and NTFS permissions.
 - <b>Group Policy:</b> Apply and verify a workstation policy using <code>gpupdate /force</code> and <code>gpresult /r</code>.
 - <b>DNS / Domain Sign-In:</b> Troubleshoot connectivity and name resolution as needed.
+
 <h2>Screenshot Documentation</h2>
 
 Screenshots will be stored in the <code>screenshots/</code> folder and added to each walkthrough section after capture. Images should show the actual configuration or verified result, with a one-sentence caption. Passwords, tokens, and private account details must not be shown.
