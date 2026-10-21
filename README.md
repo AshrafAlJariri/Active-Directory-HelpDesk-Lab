@@ -111,7 +111,7 @@ TcpTestSucceeded : True
 <!-- Caption: Accessed the Azure-hosted Windows Server 2025 desktop remotely from the Windows 11 client. -->
 
 <h3>5. Active Directory Domain Services — In Progress</h3>
- <img src="https://i.imgur.com/36j9g69.png" height="80%" width="80%" /><br/>
+ <img src="https://i.imgur.com/3f0pNpV.png" height="80%" width="80%" /><br/>
 Next steps:
 1. In Server Manager, open <b>Manage > Add Roles and Features</b>.
 2. Install <b>Active Directory Domain Services (AD DS)</b>.
