@@ -61,7 +61,7 @@ Active Directory Domain Services (installation pending)
 <h2>Walkthrough</h2>
 
 <h3>1. Azure Virtual Network and Windows Server Deployment — Completed</h3>
- <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
+ <img src="https://imgur.com/a/oNIqmtF" height="80%" width="80%" /><br/>
 
 - Created an Azure virtual network named <b>vnet-eastus-1</b>.
 - Configured the server subnet <b>10.50.1.0/24</b> and a dedicated GatewaySubnet.
