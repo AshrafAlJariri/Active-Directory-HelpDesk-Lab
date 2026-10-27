@@ -83,7 +83,7 @@ Active Directory Domain Services (installation pending)
 
  <img src="https://i.imgur.com/oLZ4pKg.jpeg" height="80%" width="80%" /><br/>
 
-- I successfully connected my Windows 11 Pro workstation to the Azure Virtual Network using Azure VPN Client. To verify connectivity, I used the PowerShell Test-NetConnection command to test TCP port 3389 on the Windows Server's private IP address (10.50.1.4). The test returned TcpTestSucceeded: True, confirming that the Remote Desktop port was reachable through the VPN.
+- **VPN Setup**: I successfully connected my Windows 11 Pro workstation to the Azure Virtual Network using Azure VPN Client. To verify connectivity, I used the PowerShell Test-NetConnection command to test TCP port 3389 on the Windows Server's private IP address (10.50.1.4). The test returned TcpTestSucceeded: True, confirming that the Remote Desktop port was reachable through the VPN.
 
 
 <!-- ![VPN connected](screenshots/02-azure-vpn-connected.png) -->
