@@ -79,10 +79,9 @@ Active Directory Domain Services (installation pending)
 <!-- ![Azure Windows Server VM](screenshots/01-azure-windows-server.png) -->
 <!-- Caption: Deployed Windows Server 2025 in an Azure virtual network for the Active Directory Help Desk lab. -->
 
-<h3>2. Point-to-Site VPN Setup — Completed</h3>
+<h3>2. Point-to-Site VPN Setup</h3>
 
- <img src="https://i.imgur.com/36j9g69.png" height="80%" width="80%" /><br/>
- <img src="https://i.imgur.com/TMOGoI5.png" height="80%" width="80%" /><br/>
+ <img src="https://i.imgur.com/RzBwY4l.png" height="80%" width="80%" /><br/>
 - Deployed the Azure VPN Gateway.
 - Configured Point-to-Site VPN access using OpenVPN and Microsoft Entra ID authentication.
 - Downloaded the Azure VPN client configuration profile.
