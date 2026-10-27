@@ -69,7 +69,7 @@ Active Directory Domain Services (installation pending)
 <h2>Setup-Walkthrough</h2>
 
 <h3>1. Azure Virtual Network and Windows Server Deployment</h3>
- <img src="https://i.imgur.com/58WahZf.jpeg" height="80%" width="80%" /><br/>
+ <img src="https://i.imgur.com/Yrk9Cpr.png" height="80%" width="80%" /><br/>
 
 - I configured an Azure Virtual Network named **vnet-eastus-1** in the **East US** region using the **10.50.0.0/16** address space with two subnets to support my Windows Server environment.
 
