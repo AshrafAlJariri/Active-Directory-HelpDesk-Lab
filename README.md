@@ -86,18 +86,12 @@ Active Directory Domain Services (installation pending)
 - **VPN Setup**: I successfully connected my Windows 11 Pro workstation to the Azure Virtual Network using Azure VPN Client. To verify connectivity, I used the PowerShell Test-NetConnection command to test TCP port 3389 on the Windows Server's private IP address **(10.50.1.4).**
 - **The test returned TcpTestSucceeded:** True, confirming that the Remote Desktop port was reachable through the VPN.
 
-
-<!-- ![VPN connected](screenshots/02-azure-vpn-connected.png) -->
-<!-- Caption: Connected the Windows 11 client to the Azure virtual network using Azure VPN Client. -->
-
 <h3>3.Active Directory Domain Services (AD DS) Installation</h3>
  <img src="https://i.imgur.com/c0QWbDY.jpeg" height="80%" width="80%" /><br/>
 
 - I installed **Active Directory Domain Services (AD DS)** on Windows Server 2025 Datacenter using Server Manager. After selecting the AD DS role, I completed the installation and confirmed it was successful. The server was then ready to be promoted to a domain controller.
 
-<b>Result:</b> Confirmed TCP access to the Windows Server RDP port over the VPN. The exact reason ICMP ping did not respond was not determined.
-<!-- ![VPN TCP connectivity](screenshots/03-vpn-connectivity-test.png) -->
-<!-- Caption: Verified that the Windows 11 client could reach Windows Server over the Azure VPN on TCP port 3389. -->
+
 
 <h3>4. Remote Desktop to Windows Server — Completed</h3>
  <img src="https://i.imgur.com/6b72vQz.png" height="80%" width="80%" /><br/>
