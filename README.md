@@ -2,9 +2,15 @@
 
 <h2>Description</h2>
 
-This project focuses on simulating real-world IT Help Desk tasks using Microsoft Active Directory in a Windows environment. The lab covers user account management, password resets, account lockouts, security group management, login troubleshooting, Group Policy, DNS troubleshooting, and employee onboarding.
+This project demonstrates how I built and administered a Microsoft Active Directory environment using Windows Server hosted in Microsoft Azure. I configured Azure networking, established a Point-to-Site VPN connection, installed Active Directory Domain Services (AD DS), and created a domain to simulate a real-world business environment.
 
-The lab uses <b>Windows Server 2025</b> hosted in <b>Microsoft Azure</b> and <b>Windows 11 Pro</b> running locally on a MacBook through <b>Parallels Desktop</b>. An Azure Point-to-Site VPN connects the Windows 11 workstation to the private Azure network. Remote Desktop is used to administer the server.
+After setting up the environment, I focused on performing common Active Directory administrative tasks, including creating employee accounts, managing security groups, modifying user properties, resetting passwords, managing user lifecycles, and examining Group Policy Objects (GPOs). These tasks simulate day-to-day responsibilities performed by IT Help Desk and IT Support professionals.
+
+The project is divided into two parts:
+
+- **Part 1 – Environment Setup:** Configuring Azure networking, VPN connectivity, Windows Server, and Active Directory Domain Services (AD DS).
+
+- **Part 2 – Active Directory Administration:** Demonstrating common administrative tasks, including user account creation, security group management, user property modification, password resets, user lifecycle management, and Group Policy Object (GPO) examination.
 
 The purpose of this project is to gain hands-on experience with common Tier 1 Help Desk responsibilities, including resolving user access issues, managing accounts, and troubleshooting Windows domain environments.
 <h2>Objectives</h2>
