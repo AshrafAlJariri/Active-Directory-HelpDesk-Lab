@@ -66,7 +66,7 @@ Azure Windows Server 2025 (Ashraf-DC-01, 10.50.1.4)
    |
 Active Directory Domain Services (installation pending)
 <b>Important:</b> Parallels runs the Windows 11 client, not the domain controller. Windows Server runs in Azure. Remote Desktop on Windows 11 controls the Azure server through the VPN.
-<h2>Walkthrough</h2>
+<h2>Setup-Walkthrough</h2>
 
 <h3>1. Azure Virtual Network and Windows Server Deployment — Completed</h3>
  <img src="https://i.imgur.com/zeeOYGF.png" height="80%" width="80%" /><br/>
