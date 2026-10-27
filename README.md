@@ -92,15 +92,9 @@ Active Directory Domain Services (installation pending)
 
 <h3>3.Active Directory Domain Services (AD DS) Installation</h3>
  <img src="https://i.imgur.com/c0QWbDY.jpeg" height="80%" width="80%" /><br/>
-Initial ICMP ping attempts to the Azure server timed out. To verify whether the server was reachable over the VPN, I inspected the IPv4 route table and tested TCP connectivity to Remote Desktop port 3389.
-route print -4
-Test-NetConnection 10.50.1.4 -Port 3389
-The PowerShell test returned:
-RemoteAddress    : 10.50.1.4
-RemotePort       : 3389
-InterfaceAlias   : vnet-eastus-1
-SourceAddress    : 172.16.100.2
-TcpTestSucceeded : True
+
+- I installed **Active Directory Domain Services (AD DS)** on Windows Server 2025 Datacenter using Server Manager. After selecting the AD DS role, I completed the installation and confirmed it was successful. The server was then ready to be promoted to a domain controller.
+
 <b>Result:</b> Confirmed TCP access to the Windows Server RDP port over the VPN. The exact reason ICMP ping did not respond was not determined.
 <!-- ![VPN TCP connectivity](screenshots/03-vpn-connectivity-test.png) -->
 <!-- Caption: Verified that the Windows 11 client could reach Windows Server over the Azure VPN on TCP port 3389. -->
