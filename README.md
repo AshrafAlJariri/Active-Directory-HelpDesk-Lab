@@ -91,18 +91,24 @@ Active Directory Domain Services (installation pending)
 
 - I installed **Active Directory Domain Services (AD DS)** on Windows Server 2025 Datacenter using Server Manager. After selecting the AD DS role, I completed the installation and confirmed it was successful. The server was then ready to be promoted to a domain controller.
 
+<h3>4.Active Directory Forest Configuration and Prerequisite Validation</h3>
+ <img src="https://i.imgur.com/JhJFXlc.png" height="80%" width="80%" /><br/>
+
+- I configured **Ashraf-DC-01** as a domain controller by selecting **Add a new forest** and specifying **corp.ashraflab.test** as the root domain name.
+
+- I then ran the Active Directory prerequisite checks, which passed successfully with configuration warnings, allowing me to proceed with domain controller promotion.
 
 
-<h3>4. Remote Desktop to Windows Server — Completed</h3>
+
+<h3>5. Remote Desktop to Windows Server — Completed</h3>
  <img src="https://i.imgur.com/6b72vQz.png" height="80%" width="80%" /><br/>
 - Opened Remote Desktop Connection (<code>mstsc</code>) on Windows 11.
 - Connected to the server's private IP address, <b>10.50.1.4</b>.
 - Signed in using the server administrator account.
 - Successfully opened Windows Server 2025 and <b>Server Manager</b> through Remote Desktop.
-<!-- ![Windows Server Manager](screenshots/04-windows-server-manager.png) -->
-<!-- Caption: Accessed the Azure-hosted Windows Server 2025 desktop remotely from the Windows 11 client. -->
 
-<h3>5. Active Directory Domain Services — In Progress</h3>
+
+<h3>6. Active Directory Domain Services — In Progress</h3>
  <img src="https://i.imgur.com/3f0pNpV.png" height="80%" width="80%" /><br/>
  <img src="https://i.imgur.com/AFKSAFN.png" height="80%" width="80%" /><br/>
 Next steps:
@@ -112,19 +118,20 @@ Next steps:
 4. Verify DNS and Active Directory administration tools.
 <!-- Add a screenshot only after AD DS installation is actually complete. -->
 
-<h3>6. Employee Accounts and Organizational Units — Planned</h3>
+<h3>7. Employee Accounts and Organizational Units — Planned</h3>
  <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
 - Create OUs for departments and employees.
 - Add test employee accounts and security groups.
 - Configure group membership and employee account settings.
 - Practice account onboarding and offboarding.
-<h3>7. Windows 11 Domain Join — Planned</h3>
+
+<h3>8. Windows 11 Domain Join — Planned</h3>
  <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
 - Configure Windows 11 to use the domain controller for DNS over the VPN.
 - Join the Windows 11 Pro workstation to the Active Directory domain.
 - Verify domain sign-in and the computer object in Active Directory.
 
-<h3>8. Help Desk Troubleshooting Scenarios — Planned</h3>
+<h3>9. Help Desk Troubleshooting Scenarios — Planned</h3>
  <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
 - <b>Forgotten Password:</b> Reset a test employee's password and verify successful sign-in.
 - <b>Locked Account:</b> Investigate and unlock a test employee account.
