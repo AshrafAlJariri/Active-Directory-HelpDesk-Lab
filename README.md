@@ -71,9 +71,10 @@ Active Directory Domain Services (installation pending)
 <h3>1. Azure Virtual Network and Windows Server Deployment</h3>
  <img src="https://i.imgur.com/zeeOYGF.png" height="80%" width="80%" /><br/>
  
-I configured an Azure Virtual Network named **vnet-eastus-1** in the East US region to host my Windows Server environment. The network uses the **10.50.0.0/16** address space and contains two subnets.
+- I configured an Azure Virtual Network named **vnet-eastus-1** in the East US region to host my Windows Server environment. The network uses the **10.50.0.0/16** address space and contains two subnets. 
 
-I deployed a Windows Server virtual machine with the private IP address **10.50.1.4** and configured it without a directly assigned public IP address to reduce internet exposure.
+- After that, I deployed a Windows Server virtual machine with the private IP address **10.50.1.4** and configured it without a directly assigned public IP address to reduce internet exposure.
+
 <!-- Add a screenshot from Azure showing the VM overview, after hiding any account-specific identifiers. -->
 <!-- ![Azure Windows Server VM](screenshots/01-azure-windows-server.png) -->
 <!-- Caption: Deployed Windows Server 2025 in an Azure virtual network for the Active Directory Help Desk lab. -->
