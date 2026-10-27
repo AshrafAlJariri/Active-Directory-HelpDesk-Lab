@@ -15,16 +15,18 @@ The project is divided into two parts:
 The purpose of this project is to gain hands-on experience with common Tier 1 Help Desk responsibilities, including resolving user access issues, managing accounts, and troubleshooting Windows domain environments.
 <h2>Objectives</h2>
 
-- Configure a Windows Server virtual machine and private network in Microsoft Azure.
-- Connect Windows 11 Pro to Azure using a Point-to-Site VPN.
-- Remotely administer Windows Server using Remote Desktop.
-- Install Active Directory Domain Services (AD DS) and configure a domain controller.
-- Create and organize employee user accounts, groups, and organizational units (OUs).
-- Join a Windows 11 Pro workstation to the Active Directory domain.
-- Practice password resets, account unlocking, and employee onboarding/offboarding.
-- Configure shared folder access and NTFS permissions.
-- Apply and troubleshoot Group Policy Objects (GPOs).
-- Document troubleshooting and verification steps with screenshots.
+- **User Account Creation:** Create new employee accounts with unique usernames, full names, and initial passwords to simulate employee onboarding.
+
+- **Adding Users to Security Groups:** Assign users to appropriate security groups based on their departments and job responsibilities to manage access permissions.
+
+- **User Property Modification:** Update existing user properties, including department information, contact details, and account settings.
+
+- **Group Management:** Create and manage security groups, assign descriptive names, and organize group memberships to support access control.
+
+- **User Lifecycle Management:** Disable and delete test user accounts to simulate employee offboarding and maintain account security.
+
+- **Group Policy Object (GPO) Examination:** Explore existing Group Policy Objects to understand how password policies, desktop configurations, and software deployment settings are managed..
+
 <h2>Languages and Utilities Used</h2>
 
 - <b>Active Directory Users and Computers (ADUC)</b> — Planned
