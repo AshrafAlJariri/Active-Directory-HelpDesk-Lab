@@ -81,7 +81,7 @@ Active Directory Domain Services (installation pending)
 
 <h3>2. Point-to-Site VPN Setup</h3>
 
- <img src="https://i.imgur.com/RzBwY4l.png" height="80%" width="80%" /><br/>
+ <img src="https://i.imgur.com/Yrk9Cpr.png" height="80%" width="80%" /><br/>
 - Deployed the Azure VPN Gateway.
 - Configured Point-to-Site VPN access using OpenVPN and Microsoft Entra ID authentication.
 - Downloaded the Azure VPN client configuration profile.
