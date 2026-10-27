@@ -102,10 +102,8 @@ Active Directory Domain Services (installation pending)
 
 <h3>5. Remote Desktop to Windows Server — Completed</h3>
  <img src="https://i.imgur.com/9oKlEbM.jpeg" height="80%" width="80%" /><br/>
-- Opened Remote Desktop Connection (<code>mstsc</code>) on Windows 11.
-- Connected to the server's private IP address, <b>10.50.1.4</b>.
-- Signed in using the server administrator account.
-- Successfully opened Windows Server 2025 and <b>Server Manager</b> through Remote Desktop.
+
+- I established a Remote Desktop (RDP) connection from my Windows 11 Pro workstation to the Azure-hosted Windows Server using its private IP address, **10.50.1.4**. After connecting through the Point-to-Site VPN, I successfully accessed Server Manager to remotely administer the server.
 
 
 <h3>6. Active Directory Domain Services — In Progress</h3>
