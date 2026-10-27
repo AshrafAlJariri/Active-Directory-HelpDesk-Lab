@@ -101,7 +101,7 @@ Active Directory Domain Services (installation pending)
 
 
 <h3>5. Remote Desktop to Windows Server — Completed</h3>
- <img src="https://i.imgur.com/6b72vQz.png" height="80%" width="80%" /><br/>
+ <img src="https://i.imgur.com/9oKlEbM.jpeg" height="80%" width="80%" /><br/>
 - Opened Remote Desktop Connection (<code>mstsc</code>) on Windows 11.
 - Connected to the server's private IP address, <b>10.50.1.4</b>.
 - Signed in using the server administrator account.
