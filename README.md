@@ -82,11 +82,9 @@ Active Directory Domain Services (installation pending)
 <h3>2. Point-to-Site VPN Setup</h3>
 
  <img src="https://i.imgur.com/oLZ4pKg.jpeg" height="80%" width="80%" /><br/>
-- Deployed the Azure VPN Gateway.
-- Configured Point-to-Site VPN access using OpenVPN and Microsoft Entra ID authentication.
-- Downloaded the Azure VPN client configuration profile.
-- Installed Azure VPN Client on Windows 11 Pro in Parallels Desktop.
-- Imported the profile and successfully connected to <b>vnet-eastus-1</b>.
+
+I successfully connected my Windows 11 Pro workstation to the Azure Virtual Network using Azure VPN Client. To verify connectivity, I used the PowerShell Test-NetConnection command to test TCP port 3389 on the Windows Server's private IP address (10.50.1.4). The test returned TcpTestSucceeded: True, confirming that the Remote Desktop port was reachable through the VPN.
+
 
 <!-- ![VPN connected](screenshots/02-azure-vpn-connected.png) -->
 <!-- Caption: Connected the Windows 11 client to the Azure virtual network using Azure VPN Client. -->
