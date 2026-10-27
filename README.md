@@ -90,7 +90,7 @@ Active Directory Domain Services (installation pending)
 <!-- ![VPN connected](screenshots/02-azure-vpn-connected.png) -->
 <!-- Caption: Connected the Windows 11 client to the Azure virtual network using Azure VPN Client. -->
 
-<h3>3. VPN Connectivity Troubleshooting</h3>
+<h3>3.Active Directory Domain Services (AD DS) Installation</h3>
  <img src="https://i.imgur.com/c0QWbDY.jpeg" height="80%" width="80%" /><br/>
 Initial ICMP ping attempts to the Azure server timed out. To verify whether the server was reachable over the VPN, I inspected the IPv4 route table and tested TCP connectivity to Remote Desktop port 3389.
 route print -4
