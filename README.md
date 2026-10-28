@@ -124,7 +124,7 @@ Active Directory Domain Services (installation pending)
   <strong>User Account Creation:</strong> I created eight employee user accounts in Active Directory and organized them into four departments: IT, HR, Finance, and Sales. Each department contains two user accounts, simulating the process of onboarding new employees and organizing users within their respective Organizational Units (OUs).
 </p>
 
-<h3>2. Windows 11 Domain Join — Planned</h3>
+<h3>2. User Property Modification</h3>
  <img src="https://i.imgur.com/YuS5js5.jpeg" width="100%" /><br/>
 <p align="center">
   <strong>User Property Modification:</strong> I modified an existing user account in Active Directory by updating John Smith's job title, department, and company information. I then saved the changes and verified that the updated properties were successfully applied.
