@@ -75,31 +75,29 @@ Active Directory Domain Services (installation pending)
   <strong>Azure Virtual Network and Windows Server Deployment:</strong> I configured an Azure Virtual Network named <strong>vnet-eastus-1</strong> in the East US region using the <strong>10.50.0.0/16</strong> address space with two subnets. I then deployed a Windows Server virtual machine with the private IP address <strong>10.50.1.4</strong> and no directly assigned public IP address to reduce internet exposure.
 </p>
 
-
-<!-- Add a screenshot from Azure showing the VM overview, after hiding any account-specific identifiers. -->
-<!-- ![Azure Windows Server VM](screenshots/01-azure-windows-server.png) -->
-<!-- Caption: Deployed Windows Server 2025 in an Azure virtual network for the Active Directory Help Desk lab. -->
-
 <h3>2. Point-to-Site VPN Setup</h3>
 
  <img src="https://i.imgur.com/oLZ4pKg.jpeg" height="80%" width="80%" /><br/>
 
-- **VPN Setup**: I successfully connected my Windows 11 Pro workstation to the Azure Virtual Network using Azure VPN Client. To verify connectivity, I used the PowerShell Test-NetConnection command to test TCP port 3389 on the Windows Server's private IP address **(10.50.1.4).**
-- **The test returned TcpTestSucceeded:** True, confirming that the Remote Desktop port was reachable through the VPN.
+<p align="center">
+  <strong>VPN Setup and Connectivity Verification:</strong> I connected my Windows 11 Pro workstation to the Azure Virtual Network using Azure VPN Client. I then used the PowerShell <strong>Test-NetConnection</strong> command to test TCP port 3389 on the Windows Server's private IP address (10.50.1.4). The test returned <strong>TcpTestSucceeded: True</strong>, confirming that the Remote Desktop port was reachable through the VPN.
+</p>
+
 
 <h3>3.Active Directory Domain Services (AD DS) Installation</h3>
  <img src="https://i.imgur.com/c0QWbDY.jpeg" width="100%" /><br/>
 
-- I installed **Active Directory Domain Services (AD DS)** on Windows Server 2025 Datacenter using Server Manager. After selecting the AD DS role, I completed the installation and confirmed it was successful. The server was then ready to be promoted to a domain controller.
+<p align="center">
+  <strong>Active Directory Domain Services (AD DS) Installation:</strong> I installed Active Directory Domain Services (AD DS) on Windows Server 2025 Datacenter using Server Manager. After selecting the AD DS role, I completed the installation and verified that it was successful. The server was then ready to be promoted to a domain controller.
+</p>
+
 
 <h3>4.Active Directory Forest Configuration and Prerequisite Validation</h3>
  <img src="https://i.imgur.com/JhJFXlc.png" width="100%" /><br/>
 
-- I configured **Ashraf-DC-01** as a domain controller by selecting **Add a new forest** and specifying **corp.ashraflab.test** as the root domain name.
-
-- I then ran the Active Directory prerequisite checks, which passed successfully with configuration warnings, allowing me to proceed with domain controller promotion.
-
-
+<p align="center">
+  <strong>Active Directory Forest Configuration:</strong> I configured Ashraf-DC-01 as a domain controller by selecting <strong>Add a new forest</strong> and specifying <strong>corp.ashraflab.test</strong> as the root domain name. I then ran the Active Directory prerequisite checks, which passed successfully with configuration warnings, allowing me to proceed with domain controller promotion.
+</p>
 
 <h3>5. Remote Desktop to Windows Server</h3>
  <img src="https://i.imgur.com/9oKlEbM.jpeg"  width="100%" /><br/>
