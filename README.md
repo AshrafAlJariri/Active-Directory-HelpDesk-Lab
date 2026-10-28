@@ -87,12 +87,12 @@ Active Directory Domain Services (installation pending)
 - **The test returned TcpTestSucceeded:** True, confirming that the Remote Desktop port was reachable through the VPN.
 
 <h3>3.Active Directory Domain Services (AD DS) Installation</h3>
- <img src="https://i.imgur.com/c0QWbDY.jpeg" height="80%" width="80%" /><br/>
+ <img src="https://i.imgur.com/c0QWbDY.jpeg" width="100%" /><br/>
 
 - I installed **Active Directory Domain Services (AD DS)** on Windows Server 2025 Datacenter using Server Manager. After selecting the AD DS role, I completed the installation and confirmed it was successful. The server was then ready to be promoted to a domain controller.
 
 <h3>4.Active Directory Forest Configuration and Prerequisite Validation</h3>
- <img src="https://i.imgur.com/JhJFXlc.png" height="80%" width="80%" /><br/>
+ <img src="https://i.imgur.com/JhJFXlc.png" width="100%" /><br/>
 
 - I configured **Ashraf-DC-01** as a domain controller by selecting **Add a new forest** and specifying **corp.ashraflab.test** as the root domain name.
 
