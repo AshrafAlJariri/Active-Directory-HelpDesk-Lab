@@ -156,6 +156,20 @@ Active Directory Domain Services (installation pending)
   <strong>User Lifecycle Management:</strong> I created a test employee account named Michael Davis in the IT department to simulate employee onboarding. I then practiced disabling and re-enabling the account to manage user access. Finally, I simulated employee offboarding by deleting the account from Active Directory.
 </p>
 
+<h3>Objective 5. User Property Modification</h3>
+ <img src="https://i.imgur.com/FwBYs76.jpeg" width="100%" /><br/>
+
+ <img src="https://i.imgur.com/ycJFJnZ.png" width="100%" /><br/>
+
+ <img src="https://i.imgur.com/exIhsd1.jpeg" width="100%" /><br/>
+
+ <img src="https://i.imgur.com/U0Tr3yg.jpeg" width="100%" /><br/>
+
+ <img src="https://i.imgur.com/JqupWr3.jpeg" width="100%" /><br/>
+     
+<p align="center">
+  <strong>User Property Modification:</strong> I modified an existing user accounts in Active Directory, such as updating a user's department, contact information, and account settings. For example, I updated John Smith's job title, department, and company information. I then saved the changes and verified that the updated properties were successfully applied. This demonstrated my ability to perform routine account maintenance. 
+</p>
 
 <h2>Screenshot Documentation</h2>
 
