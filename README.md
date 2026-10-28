@@ -133,7 +133,7 @@ Active Directory Domain Services (installation pending)
 
 <h3>3.Objective 3: Security Group Management. </h3>
  <img src="https://i.imgur.com/h5nZfK6.png" height="80%" width="80%" /><br/>
- <img src="https://i.imgur.com/h5nZfK6.png" width="100%" /><br/>
+ <img src="https://i.imgur.com/VrHjQ9K.png" width="100%" /><br/>
 
 <h2>Screenshot Documentation</h2>
 
