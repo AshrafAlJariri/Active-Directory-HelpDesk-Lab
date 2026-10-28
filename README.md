@@ -120,10 +120,9 @@ Active Directory Domain Services (installation pending)
 <h3>1. User Account Creation and Department Organization</h3>
  <img src="https://i.imgur.com/4G7wkdy.jpeg" width="100%" /><br/>
  <img src="https://i.imgur.com/5nW5eh2.jpeg" width="100%" /><br/>
-- Create OUs for departments and employees.
-- Add test employee accounts and security groups.
-- Configure group membership and employee account settings.
-- Practice account onboarding and offboarding.
+<p align="center">
+  <strong>User Account Creation:</strong> I created eight employee user accounts in Active Directory and organized them into four departments: IT, HR, Finance, and Sales. Each department contains two user accounts, simulating the process of onboarding new employees and organizing users within their respective Organizational Units (OUs).
+</p>
 
 <h3>2. Windows 11 Domain Join — Planned</h3>
  <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
