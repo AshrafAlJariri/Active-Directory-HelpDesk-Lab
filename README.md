@@ -136,6 +136,10 @@ Active Directory Domain Services (installation pending)
   <img src="https://i.imgur.com/FP8IzHW.png" width="600" alt="Security Group Creation">
 </p>
  <img src="https://i.imgur.com/VrHjQ9K.png" width="100%" /><br/>
+ <p align="center">
+  <strong>Security Group Management:</strong> I created a Global Security Group named GG_IT_Users within the IT organizational unit. I then added John Smith and Sara James to the group and verified their membership to demonstrate how Active Directory security groups are used to organize users and manage access permissions.
+</p>
+
 
 <h2>Screenshot Documentation</h2>
 
