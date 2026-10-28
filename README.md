@@ -131,13 +131,21 @@ Active Directory Domain Services (installation pending)
 </p>
 
 
-<h3>Objective 3: Security Group Management. </h3>
+<h3>Objective 3. Security Group Management. </h3>
 <p align="center">
   <img src="https://i.imgur.com/FP8IzHW.png" width="600" alt="Security Group Creation">
 </p>
  <img src="https://i.imgur.com/VrHjQ9K.png" width="100%" /><br/>
  <p align="center">
   <strong>Security Group Management:</strong> I created a Global Security Group named GG_IT_Users within the IT organizational unit. I then added John Smith and Sara James to the group and verified their membership to demonstrate how Active Directory security groups are used to organize users and manage access permissions.
+</p>
+
+<h3>Objective 4. User Lifecycle Management</h3>
+ <img src="https://i.imgur.com/pl87pkh.png" width="100%" /><br/>
+ <img src="https://i.imgur.com/WYM8BtY.png" width="100%" /><br/>
+ <img src="https://i.imgur.com/hWGq7Sf.png" width="100%" /><br/>
+<p align="center">
+  <strong>User Lifecycle Management:</strong> I created a test employee account named Michael Davis in the IT department to simulate employee onboarding. I then practiced disabling and re-enabling the account to manage user access. Finally, I simulated employee offboarding by deleting the account from Active Directory.
 </p>
 
 
