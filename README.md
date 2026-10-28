@@ -125,10 +125,11 @@ Active Directory Domain Services (installation pending)
 </p>
 
 <h3>2. Windows 11 Domain Join — Planned</h3>
- <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
-- Configure Windows 11 to use the domain controller for DNS over the VPN.
-- Join the Windows 11 Pro workstation to the Active Directory domain.
-- Verify domain sign-in and the computer object in Active Directory.
+ <img src="https://i.imgur.com/YuS5js5.jpeg" width="100%" /><br/>
+<p align="center">
+  <strong>User Property Modification:</strong> I modified an existing user account in Active Directory by updating John Smith's job title, department, and company information. I then saved the changes and verified that the updated properties were successfully applied.
+</p>
+
 
 <h3>3. Help Desk Troubleshooting Scenarios — Planned</h3>
  <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
