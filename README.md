@@ -117,9 +117,9 @@ Active Directory Domain Services (installation pending)
 
 <h2>Part 2: Active Directory Administration Walkthrough</h2>
 
-<h3>1.User Account Creation and Department Organization</h3>
- <img src="https://i.imgur.com/4G7wkdy.jpeg" width="80%" /><br/>
- <img src="https://i.imgur.com/5nW5eh2.jpeg" width="80%" /><br/>
+<h3>1. User Account Creation and Department Organization</h3>
+ <img src="https://i.imgur.com/4G7wkdy.jpeg" width="100%" /><br/>
+ <img src="https://i.imgur.com/5nW5eh2.jpeg" width="100%" /><br/>
 - Create OUs for departments and employees.
 - Add test employee accounts and security groups.
 - Configure group membership and employee account settings.
