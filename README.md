@@ -117,21 +117,21 @@ Active Directory Domain Services (installation pending)
 
 <h2>Part 2: Active Directory Administration Walkthrough</h2>
 
-<h3>1. User Account Creation and Department Organization</h3>
+<h3>Objective 1. User Account Creation and Department Organization</h3>
  <img src="https://i.imgur.com/4G7wkdy.jpeg" width="100%" /><br/>
  <img src="https://i.imgur.com/5nW5eh2.jpeg" width="100%" /><br/>
 <p align="center">
   <strong>User Account Creation:</strong> I created eight employee user accounts in Active Directory and organized them into four departments: IT, HR, Finance, and Sales. Each department contains two user accounts, simulating the process of onboarding new employees and organizing users within their respective Organizational Units (OUs).
 </p>
 
-<h3>2. User Property Modification</h3>
+<h3>Objective 2. User Property Modification</h3>
  <img src="https://i.imgur.com/Iu45ZCr.png" width="100%" /><br/>
 <p align="center">
   <strong>User Property Modification:</strong> I modified an existing user accounts in Active Directory, such as updating a user's department, contact information, and account settings. For example, I updated John Smith's job title, department, and company information. I then saved the changes and verified that the updated properties were successfully applied. This demonstrated my ability to perform routine account maintenance. 
 </p>
 
 
-<h3>3.Objective 3: Security Group Management. </h3>
+<h3>Objective 3: Security Group Management. </h3>
 <p align="center">
   <img src="https://i.imgur.com/FP8IzHW.png" width="600" alt="Security Group Creation">
 </p>
