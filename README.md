@@ -116,20 +116,22 @@ Active Directory Domain Services (installation pending)
 <strong>Domain and Workstation Verification:</strong> I verified that my Active Directory domain, corp.ashraflab.test, was accessible and that Ashraf-DC-01 was listed as the domain controller. I also confirmed that my Windows 11 Pro workstation (CLIENT-01) was successfully joined to the domain.
 </p>
 
-<h3>7. Employee Accounts and Organizational Units — Planned</h3>
+<h2>Part 2: Active Directory Administration Walkthrough</h2>
+
+<h3>1. Employee Accounts and Organizational Units — Planned</h3>
  <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
 - Create OUs for departments and employees.
 - Add test employee accounts and security groups.
 - Configure group membership and employee account settings.
 - Practice account onboarding and offboarding.
 
-<h3>8. Windows 11 Domain Join — Planned</h3>
+<h3>2. Windows 11 Domain Join — Planned</h3>
  <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
 - Configure Windows 11 to use the domain controller for DNS over the VPN.
 - Join the Windows 11 Pro workstation to the Active Directory domain.
 - Verify domain sign-in and the computer object in Active Directory.
 
-<h3>9. Help Desk Troubleshooting Scenarios — Planned</h3>
+<h3>3. Help Desk Troubleshooting Scenarios — Planned</h3>
  <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
 - <b>Forgotten Password:</b> Reset a test employee's password and verify successful sign-in.
 - <b>Locked Account:</b> Investigate and unlock a test employee account.
