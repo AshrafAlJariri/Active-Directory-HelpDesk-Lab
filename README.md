@@ -131,13 +131,9 @@ Active Directory Domain Services (installation pending)
 </p>
 
 
-<h3>3. Help Desk Troubleshooting Scenarios — Planned</h3>
- <img src="https://imgur.com/Uce9jX4.png" height="80%" width="80%" /><br/>
-- <b>Forgotten Password:</b> Reset a test employee's password and verify successful sign-in.
-- <b>Locked Account:</b> Investigate and unlock a test employee account.
-- <b>Shared Folder Access:</b> Configure and test share and NTFS permissions.
-- <b>Group Policy:</b> Apply and verify a workstation policy using <code>gpupdate /force</code> and <code>gpresult /r</code>.
-- <b>DNS / Domain Sign-In:</b> Troubleshoot connectivity and name resolution as needed.
+<h3>3.Objective 3: Security Group Management. </h3>
+ <img src="https://i.imgur.com/h5nZfK6.png" height="80%" width="80%" /><br/>
+ <img src="https://i.imgur.com/h5nZfK6.png" width="100%" /><br/>
 
 <h2>Screenshot Documentation</h2>
 
