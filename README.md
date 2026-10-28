@@ -112,7 +112,6 @@ Active Directory Domain Services (installation pending)
 
 <h3>6.Active Directory Domain and Windows 11 Domain Join Verification</h3>
  <img src="https://i.imgur.com/svbhajN.jpeg"  width="100%" /><br/>
-
 <p align="center">
 <strong>Domain and Workstation Verification:</strong> I verified that my Active Directory domain, corp.ashraflab.test, was accessible and that Ashraf-DC-01 was listed as the domain controller. I also confirmed that my Windows 11 Pro workstation (CLIENT-01) was successfully joined to the domain.
 </p>
