@@ -143,6 +143,7 @@ Active Directory Domain Services (installation pending)
 <h3>Objective 4. User Lifecycle Management</h3>
  <img src="https://i.imgur.com/pl87pkh.png" width="100%" /><br/>
  <img src="https://i.imgur.com/WYM8BtY.png" width="100%" /><br/>
+ <img src="https://i.imgur.com/VLCN1VR.png" width="100%" /><br/>
  <img src="https://i.imgur.com/hWGq7Sf.png" width="100%" /><br/>
 <p align="center">
   <strong>User Lifecycle Management:</strong> I created a test employee account named Michael Davis in the IT department to simulate employee onboarding. I then practiced disabling and re-enabling the account to manage user access. Finally, I simulated employee offboarding by deleting the account from Active Directory.
