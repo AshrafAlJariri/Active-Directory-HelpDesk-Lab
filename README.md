@@ -104,8 +104,7 @@ Active Directory Domain Services (installation pending)
  <img src="https://i.imgur.com/9oKlEbM.jpeg"  width="100%" /><br/>
 
 <p align="center">
-
-<strong>Remote Desktop (RDP) Connection:</strong> I established a Remote Desktop connection from my Windows 11 Pro workstation to the Azure-hosted Windows Server using its private IP address **(10.50.1.4).** I then accessed Server Manager to remotely administer and configure the server.
+<strong>Remote Desktop (RDP) Connection:</strong> I established a Remote Desktop connection from my Windows 11 Pro workstation to the Azure-hosted Windows Server using its private IP address <b>(10.50.1.4).</b> I then accessed Server Manager to remotely administer and configure the server.
 </p>
 
 
