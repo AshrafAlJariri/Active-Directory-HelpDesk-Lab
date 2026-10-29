@@ -171,8 +171,8 @@ Active Directory Domain Services (Installed and Configured)
  <img src="https://i.imgur.com/U0Tr3yg.jpeg" width="100%" /><br/>
 <p align="center"><strong>Restriction Testing</strong></p>
  <img src="https://i.imgur.com/JqupWr3.jpeg" width="100%" /><br/>
-     <p align="center">
-  <strong>Group Policy Management:</strong> I created and configured a Group Policy Object named IT-Workstation-Policy to restrict access to Control Panel and PC Settings for IT users. I then applied the policy using gpupdate /force and verified its application using gpresult /r. Finally, I tested the restriction on the Windows 11 workstation.
+   <p align="center">
+  <strong>Group Policy Management:</strong> I created and configured a Group Policy Object (GPO) named IT-Workstation-Policy to restrict access to Control Panel and PC Settings for IT users. I linked the GPO to the IT organizational unit, refreshed the policy using gpupdate /force, and verified its application using gpresult /r. I then attempted to access Control Panel on my Windows 11 workstation to confirm that the restriction was successfully enforced.
 </p>
 
 
