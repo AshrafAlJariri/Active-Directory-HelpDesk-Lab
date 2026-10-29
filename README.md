@@ -156,15 +156,16 @@ Active Directory Domain Services (installation pending)
   <strong>User Lifecycle Management:</strong> I created a test employee account named Michael Davis in the IT department to simulate employee onboarding. I then practiced disabling and re-enabling the account to manage user access. Finally, I simulated employee offboarding by deleting the account from Active Directory.
 </p>
 
-<h3>Objective 5. User Property Modification</h3>
+<h3>Objective 5. Group Policy Object (GPO) Configuration and Verification</h3>
+ <p align="center"><strong>GPO Creation and Linking</strong></p>
  <img src="https://i.imgur.com/FwBYs76.jpeg" width="100%" /><br/>
-
+<p align="center"><strong>GPO Configuration</strong></p>
  <img src="https://i.imgur.com/ycJFJnZ.png" width="100%" /><br/>
-
+<p align="center"><strong>Policy Update and Verification</strong></p>
  <img src="https://i.imgur.com/exIhsd1.jpeg" width="100%" /><br/>
-
+<p align="center"><strong>Group Policy Application</strong></p>
  <img src="https://i.imgur.com/U0Tr3yg.jpeg" width="100%" /><br/>
-
+<p align="center"><strong>Restriction Testing</strong></p>
  <img src="https://i.imgur.com/JqupWr3.jpeg" width="100%" /><br/>
      
 <p align="center">
