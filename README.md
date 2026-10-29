@@ -158,9 +158,9 @@ Active Directory Domain Services (installation pending)
 
 <h3>Objective 5. Group Policy Object (GPO) Configuration and Verification</h3>
  <p align="center"><strong>GPO Creation and Linking</strong></p>
- <img src="https://i.imgur.com/FwBYs76.jpeg" width="100%" /><br/>
+ <img src="https://i.imgur.com/UaM3s0f.jpeg" width="100%" /><br/>
 <p align="center"><strong>GPO Configuration</strong></p>
- <img src="https://i.imgur.com/ycJFJnZ.png" width="100%" /><br/>
+ <img src="https://i.imgur.com/gzGaBv1.png" width="100%" /><br/>
 <p align="center"><strong>Policy Update and Verification</strong></p>
  <img src="https://i.imgur.com/exIhsd1.jpeg" width="100%" /><br/>
 <p align="center"><strong>Group Policy Application</strong></p>
@@ -170,13 +170,6 @@ Active Directory Domain Services (installation pending)
      <p align="center">
   <strong>Group Policy Management:</strong> I created and configured a Group Policy Object named IT-Workstation-Policy to restrict access to Control Panel and PC Settings for IT users. I then applied the policy using gpupdate /force and verified its application using gpresult /r. Finally, I tested the restriction on the Windows 11 workstation.
 </p>
-
-
-<h2>Screenshot Documentation</h2>
-
-Screenshots will be stored in the <code>screenshots/</code> folder and added to each walkthrough section after capture. Images should show the actual configuration or verified result, with a one-sentence caption. Passwords, tokens, and private account details must not be shown.
-<h2>Conclusion</h2>
-
 
 <b>Project Status: In Progress</b>
 
