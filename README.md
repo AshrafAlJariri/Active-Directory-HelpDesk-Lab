@@ -146,7 +146,7 @@ Active Directory Domain Services (installation pending)
 <h3>Objective 4. User Lifecycle Management</h3>
 <p align="center"><strong>User Account Creation</strong></p>
  <img src="https://i.imgur.com/pl87pkh.png" width="100%" /><br/>
-<p align="center"><strong>Resetting User Account</strong></p>
+<p align="center"><strong>Resetting User Account Password</strong></p>
   <img src="https://i.imgur.com/RVWBuwk.png" width="100%" /><br/>
  <p align="center"><strong>Account Disabling</strong></p>
  <img src="https://i.imgur.com/WYM8BtY.png" width="100%" /><br/>
