@@ -155,7 +155,9 @@ Active Directory Domain Services (installation pending)
 <p align="center"><strong>Account Deletion</strong></p>
  <img src="https://i.imgur.com/R63cAEy.png" width="100%" /><br/>
 <p align="center">
-  <strong>User Lifecycle Management:</strong> I created a test employee account named Michael Davis in the IT department to simulate employee onboarding. I then practiced disabling and re-enabling the account to manage user access. Finally, I simulated employee offboarding by deleting the account from Active Directory.
+  <strong>User Lifecycle Management:</strong> I created a test employee account named Michael Davis in the IT department to simulate employee onboarding. I then practiced resetting the account password, disabling and re-enabling the account to manage user access. Finally, I simulated employee offboarding by deleting the account from Active Directory.
+</p>
+
 </p>
 
 <h3>Objective 5. Group Policy Object (GPO) Configuration and Verification</h3>
