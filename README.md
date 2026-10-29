@@ -29,8 +29,8 @@ The purpose of this project is to gain hands-on experience with common Tier 1 He
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Active Directory Users and Computers (ADUC)</b> — Planned
-- <b>Group Policy Management Console (GPMC)</b> — Planned
+- <b>Active Directory Users and Computers (ADUC)</b> 
+- <b>Group Policy Management Console (GPMC)</b>
 - <b>Windows PowerShell</b>
 - <b>Command Prompt</b>
 - <b>Remote Desktop Connection (RDP)</b>
