@@ -171,8 +171,18 @@ Active Directory Domain Services (installation pending)
   <strong>Group Policy Management:</strong> I created and configured a Group Policy Object named IT-Workstation-Policy to restrict access to Control Panel and PC Settings for IT users. I then applied the policy using gpupdate /force and verified its application using gpresult /r. Finally, I tested the restriction on the Windows 11 workstation.
 </p>
 
-<b>Project Status: In Progress</b>
 
-So far, this lab has provided hands-on experience with deploying Windows Server in Microsoft Azure, configuring a private virtual network and Point-to-Site VPN, diagnosing network connectivity with PowerShell, and remotely administering the server using Windows 11 Pro in Parallels Desktop.
+<h2>What I Learned</h2>
 
-Upcoming work will focus on installing and configuring Active Directory Domain Services, joining a workstation to the domain, and performing practical Tier 1 Help Desk tasks involving employee accounts, Group Policy, and permissions.
+<p>
+Through this project, I gained hands-on experience building and managing an Active Directory environment using Microsoft Azure and Windows Server 2025. I learned how to configure virtual networking, establish secure VPN connectivity, deploy a domain controller, and join a Windows 11 workstation to a domain.
+</p>
+
+<p>
+I also developed practical Active Directory administration skills, including creating and organizing user accounts, managing Organizational Units (OUs), modifying user properties, configuring security groups, and performing user lifecycle management. Additionally, I gained experience creating, applying, and verifying Group Policy Objects (GPOs).
+</p>
+
+<p>
+Overall, this project strengthened my understanding of Windows domain administration, user access management, and the fundamental skills required for entry-level IT Help Desk and System Administration roles.
+</p>
+
