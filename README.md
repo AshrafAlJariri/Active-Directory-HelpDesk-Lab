@@ -127,7 +127,7 @@ Active Directory Domain Services (installation pending)
 <h3>Objective 2. User Property Modification</h3>
  <img src="https://i.imgur.com/Iu45ZCr.png" width="100%" /><br/>
 <p align="center">
-  <strong>User Property Modification:</strong> I modified an existing user accounts in Active Directory, such as updating a user's department, contact information, and account settings. For example, I updated John Smith's job title, department, and company information. I then saved the changes and verified that the updated properties were successfully applied. This demonstrated my ability to perform routine account maintenance. 
+  <strong>User Property Modification:</strong> I modified an existing user account in Active Directory, such as updating a user's department, contact information, and account settings. For example, I updated John Smith's job title, department, and company information. I then saved the changes and verified that the updated properties were successfully applied. This demonstrated my ability to perform routine account maintenance. 
 </p>
 
 
