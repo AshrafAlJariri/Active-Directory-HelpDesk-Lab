@@ -167,10 +167,10 @@ Active Directory Domain Services (installation pending)
  <img src="https://i.imgur.com/U0Tr3yg.jpeg" width="100%" /><br/>
 <p align="center"><strong>Restriction Testing</strong></p>
  <img src="https://i.imgur.com/JqupWr3.jpeg" width="100%" /><br/>
-     
-<p align="center">
-  <strong>User Property Modification:</strong> I modified an existing user accounts in Active Directory, such as updating a user's department, contact information, and account settings. For example, I updated John Smith's job title, department, and company information. I then saved the changes and verified that the updated properties were successfully applied. This demonstrated my ability to perform routine account maintenance. 
+     <p align="center">
+  <strong>Group Policy Management:</strong> I created and configured a Group Policy Object named IT-Workstation-Policy to restrict access to Control Panel and PC Settings for IT users. I then applied the policy using gpupdate /force and verified its application using gpresult /r. Finally, I tested the restriction on the Windows 11 workstation.
 </p>
+
 
 <h2>Screenshot Documentation</h2>
 
