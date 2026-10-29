@@ -158,9 +158,9 @@ Active Directory Domain Services (installation pending)
 
 <h3>Objective 5. Group Policy Object (GPO) Configuration and Verification</h3>
  <p align="center"><strong>GPO Creation and Linking</strong></p>
- <img src="https://i.imgur.com/UaM3s0f.jpeg" width="100%" /><br/>
+ <img src="https://i.imgur.com/Z1wDAh8.jpeg" width="100%" /><br/>
 <p align="center"><strong>GPO Configuration</strong></p>
- <img src="https://i.imgur.com/gzGaBv1.png" width="100%" /><br/>
+ <img src="https://i.imgur.com/481m4d4.png" width="100%" /><br/>
 <p align="center"><strong>Policy Update and Verification</strong></p>
  <img src="https://i.imgur.com/exIhsd1.jpeg" width="100%" /><br/>
 <p align="center"><strong>Group Policy Application</strong></p>
